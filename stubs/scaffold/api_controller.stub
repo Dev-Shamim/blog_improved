@@ -1,0 +1,44 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use {{ model_namespace }}\{{ model }};
+
+class {{ class }} extends Controller
+{
+    public function index()
+    {
+        return {{ model }}::latest()->paginate(10);
+    }
+
+    public function store(Request $request)
+    {
+        $validated = $request->validate([
+            // validation rules...
+        ]);
+        $item = {{ model }}::create($validated);
+        return response()->json($item, 201);
+    }
+
+    public function show({{ model }} ${{ route_name }})
+    {
+        return ${{ route_name }};
+    }
+
+    public function update(Request $request, {{ model }} ${{ route_name }})
+    {
+        $validated = $request->validate([
+            // validation rules...
+        ]);
+        ${{ route_name }}->update($validated);
+        return response()->json(${{ route_name }});
+    }
+
+    public function destroy({{ model }} ${{ route_name }})
+    {
+        ${{ route_name }}->delete();
+        return response()->json(null, 204);
+    }
+}
