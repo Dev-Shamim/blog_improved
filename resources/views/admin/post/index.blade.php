@@ -83,23 +83,7 @@
                             </td>
                         </tr>
                     @endforeach
-                    {{-- <tr>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                            React
-                        </td>
-                        <td class="px-6 py-4 text-sm text-gray-500">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quaerat ipsa id ea magni
-                            reprehenderit quidem, totam dolorem expedita consequatur vero ratione illum blanditiis neque,
-                            ipsum ab accusantium beatae consectetur.
-                        </td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            Manchur Iqbal
-                        </td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                            <a href="#" class="text-indigo-600 hover:text-indigo-900 mr-2">Edit</a>
-                            <a href="#" class="text-red-600 hover:text-red-900">Delete</a>
-                        </td>
-                    </tr> --}}
+                     
                 </tbody>
             </table>
         </div>

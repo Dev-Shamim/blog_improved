@@ -23,20 +23,7 @@
                 @enderror
             </div>
 
-            <!-- Slug -->
-            {{-- <div>
-                <label for="slug" class="block text-sm font-medium text-gray-700">Slug <span
-                        class="text-red-500">*</span></label>
-                <input type="text" id="slug" name="slug" required
-                    class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500">
-                @error('slug')
-                <div>
-                    <span class="text-red-500 text-sm">{{ $message }}</span>
-                </div>
-                @enderror
-            </div> --}}
-
-            <!-- Parent Category -->
+          
             <div>
                 <label for="parent_category" class="block text-sm font-medium text-gray-700">Parent Category </label>
                 <select id="parent_category" name="parent_id"

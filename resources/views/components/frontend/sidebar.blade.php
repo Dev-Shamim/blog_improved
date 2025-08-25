@@ -30,24 +30,7 @@
                 </div>
             @endforeach
 
-            {{-- <!-- Post 2 -->
-            <div class="flex items-start">
-                <img src="https://placehold.co/920x610/png" alt="Low-Code"
-                    class="w-16 h-16 object-cover rounded-md mr-3">
-                <div>
-                    <h4 class="font-medium text-gray-800">Low-Code Revolution</h4>
-                    <p class="text-sm text-gray-500">July 18, 2023</p>
-                </div>
-            </div>
-
-            <!-- Post 3 -->
-            <div class="flex items-start">
-                <img src="https://placehold.co/920x610/png" alt="Cloud" class="w-16 h-16 object-cover rounded-md mr-3">
-                <div>
-                    <h4 class="font-medium text-gray-800">Cloud Best Practices</h4>
-                    <p class="text-sm text-gray-500">June 10, 2023</p>
-                </div>
-            </div> --}}
+           
         </div>
     </div>
 
@@ -63,18 +46,7 @@
                         class="bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded-full">{{$category->posts->count()}}</span>
                 </a>
             @endforeach
-            {{-- <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-100 rounded-md transition">
-                <span class="text-gray-700">Artificial Intelligence</span>
-                <span class="bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded-full">8</span>
-            </a>
-            <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-100 rounded-md transition">
-                <span class="text-gray-700">Cloud Computing</span>
-                <span class="bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded-full">5</span>
-            </a>
-            <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-100 rounded-md transition">
-                <span class="text-gray-700">Cybersecurity</span>
-                <span class="bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded-full">7</span>
-            </a> --}}
+           
         </div>
     </div>
 
